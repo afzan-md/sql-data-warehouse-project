@@ -1,3 +1,16 @@
+/*
+**********************************
+DDL SCRIPT BRONZE LAYER
+**********************************
+Script purpose: 
+  This step creates tables in 'Silver' Schema, dropping 
+  existing tables if they already exist.
+
+In the table we also added a Meta Data Column named 
+'dwh_create_date' of data type datetime and default 
+value as the date of insertion of data. 
+*/
+
 IF OBJECT_ID('silver.crm_cust_info', 'U') IS NOT NULL
     DROP TABLE silver.crm_cust_info;
 
