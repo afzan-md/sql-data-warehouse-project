@@ -18,6 +18,8 @@ This project involves:
 
 ![Dashboard Screenshot](Architecture.png)
 
+---
+
 ## 🚀 Project Requirements
 
 ### Building the Data Warehouse (Data Engineering)
