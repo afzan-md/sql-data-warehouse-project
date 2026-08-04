@@ -16,7 +16,7 @@ This project involves:
 ---
 ## Project Architecture
 
-![Dashboard Screenshot](Architecture.png)
+![Dashboard Screenshot](docs/Architecture.png)
 
 ---
 
